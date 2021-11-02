@@ -1,0 +1,38 @@
+:root {
+  --color-primary: hsl(228, 45%, 44%); 
+  --color-title: hsl(223, 47%, 23%);
+  --color-paragraph: hsl(225, 100%, 98%);
+  --color-1: hsl(224, 23%, 55%);
+  --color-2: hsl(245, 75%, 52%);
+}
+
+body {
+  background-color: rgb(214 225 255);
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  height: 600px;
+  width: 400px;
+}
+
+.card-image {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+.title-card {
+  color: var(--color-title);
+  font-size: 16px;
+  text-align: center;
+}
+
+.text-card {
+  color: var(--color-1);
+}
