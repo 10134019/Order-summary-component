@@ -7,21 +7,23 @@
   <meta viewport="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Order summary card</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-  <article>
-    <section>
-      <h1>Order Summary</h1>
-      <p>You can now listen to millions of songs, audiobooks, and podcasts on any device
+  <article class="container-card">
+    <section class="card">
+      <img src="./images/illustration-hero.svg" class="card-image">
+      <h1 class="title-card">Order Summary</h1>
+      <p class="text-card">You can now listen to millions of songs, audiobooks, and podcasts on any device
       anywhere you like!</p>
-      <article>
+      <article class="description-card">
         <img src="./images/icon-music.svg">
         <h2><span>Annual Plan$</span> 59.99/year</h2>
         <a href="">Change</a>
       </article>
-      <h3>Proceed to Payment</h3>
-      <h3>Cancel Order</h3>
+      <button class="card-button-primary">Proceed to Payment</button>
+      <button class="card-button-second">Cancel Order</button>
     </section>
   </article>
 
