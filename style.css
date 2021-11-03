@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #222;
+  background-color: var(--Very-pale);
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,7 @@ body {
 
 .card {
   height: 750px;
-  width: 500px;
+  max-width: 500px;
   background-color: var(--Pale);
   border-radius: 20px;
   display: flex;
@@ -111,3 +111,7 @@ body {
   padding: 40px;
 }
 
+@media screen and (min-width: 500px) {
+  body {
+  } 
+}
